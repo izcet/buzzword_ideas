@@ -8,3 +8,4 @@ privatize
 decriminalize
 apply machine learning to
 funnel
+provide end-to-end encryption for
