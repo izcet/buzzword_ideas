@@ -1,0 +1,6 @@
+mobile app
+browser plugin
+web app
+node package
+marvin factoid
+program
