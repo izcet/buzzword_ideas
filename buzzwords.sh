@@ -27,4 +27,4 @@ TRE=$(getLine $TRE)
 QUA=$(getLine $QUA)
 CIN=$(getLine $CIN)
 
-echo "$UNO $DOS $TRE $QUA $CIN."
+echo "\n\t$UNO $DOS $TRE $QUA $CIN.\n"
