@@ -13,18 +13,31 @@ TRE=$SRCS/$TRAN
 QUA=$SRCS/$VERB
 CIN=$SRCS/$SUBJ
 
+END=""
+
 function getLine () {
 	DOC=$1
 	LEN=$(wc -l $DOC | sed 's/ *//' | cut -d' ' -f1)
 	RND=$(($(($RANDOM % $LEN)) + 1))
+	if [ $# -gt 1 ] ; then
+		if [ $(($RND % 2)) -eq 0 ] ; then
+			END="?"
+		else
+			END="."
+		fi
+		echo "$END#\c"
+	fi
 	TXT=$(head -n $RND $DOC | tail -1)
 	echo $TXT
 }
 
-UNO=$(getLine $UNO)
+UNO=$(getLine $UNO "1")
 DOS=$(getLine $DOS)
 TRE=$(getLine $TRE)
 QUA=$(getLine $QUA)
 CIN=$(getLine $CIN)
 
-echo "\n\t$UNO $DOS $TRE $QUA $CIN.\n"
+END=$(echo $UNO | cut -d'#' -f1)
+UNO=$(echo $UNO | cut -d'#' -f2-)
+
+echo "\n\t$UNO $DOS $TRE $QUA $CIN$END\n"
