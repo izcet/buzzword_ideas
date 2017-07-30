@@ -1,0 +1,1 @@
+while true; do echo "" ;./buzzwords.sh ; echo "" ; sleep 7; done
