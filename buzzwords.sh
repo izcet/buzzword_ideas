@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 SRCS=txts
 OPEN="1_opener.txt"
@@ -25,7 +25,7 @@ function getLine () {
 		else
 			END="."
 		fi
-		echo "$END#\c"
+		echo -n "$END#"
 	fi
 	TXT=$(head -n $RND $DOC | tail -1)
 	echo $TXT
@@ -40,4 +40,4 @@ CIN=$(getLine $CIN)
 END=$(echo $UNO | cut -d'#' -f1)
 UNO=$(echo $UNO | cut -d'#' -f2-)
 
-echo "\n\t$UNO $DOS $TRE $QUA $CIN$END\n"
+echo "$UNO $DOS $TRE $QUA $CIN$END"
