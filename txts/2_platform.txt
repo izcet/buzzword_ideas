@@ -5,4 +5,7 @@ node package
 marvin factoid
 program
 web scraper
+alexa plugin
+mobile game
+biometric implant
 chatbot
