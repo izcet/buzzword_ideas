@@ -1,4 +1,5 @@
 virtualize
+vectorize
 automate
 emulate
 blockchainize

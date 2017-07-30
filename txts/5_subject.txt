@@ -1,4 +1,8 @@
 love
+the pomodoro technique
+data mining
+ad revenue
+security
 hope
 fear
 the means of production
@@ -36,3 +40,6 @@ the inevitable heat death of the universe
 cats
 sadness
 buckets of data
+user generated content
+microblogging
+growth hacking
