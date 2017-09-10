@@ -29,6 +29,7 @@ $> ./buzzwords.sh
 ```
 
 ### Future Iterations
+- Translate to python and/or javascript to improve portability, and prepare for a web-enabled experience
 - Apply markov chains to the sentence generation to improve the linguistic flow.
 - Put this on a website where users get a new idea each page visit.
 - Crowdsource content (users can add their own buzzwords)
