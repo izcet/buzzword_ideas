@@ -38,3 +38,8 @@ $> ./buzzwords.sh
  ```
  [That's already been done by | Everyone knows that's being worked on in the basement of] [Amazon | Facebook | Google | etc] ... etc
 ```
+- Real-life news articles. Put a set of rules in that if a given subset of buzzwords match up, display a link to an article directly related to the random phrase.
+```
+What if we apply machine learning to the homosexual agenda?
+>>> https://www.economist.com/news/science-and-technology/21728614-machines-read-faces-are-coming-advances-ai-are-used-spot-signs
+```
